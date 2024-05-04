@@ -36,32 +36,32 @@ export default function Grafics({ data, setActiveStep }) {
   const [muscleMas, setMuscleMas] = useState(0);
   const [plAvarage, setPlAvarage] = useState(0);
   const [pastDataPeso, setPastDataPeso] = useState([
-    { title: "Medicion 1", value: 68.2 },
-    { title: "Medicion 2", value: 69.8 },
-    { title: "Medicion 3", value: 70 },
+    { title: "Medición 1", value: 68.2 },
+    { title: "Medición 2", value: 69.8 },
+    { title: "Medición 3", value: 70 },
   ]);
   const [pastDataPlieguesSum, setPastDataPlieguesSum] = useState([
-    { title: "Medicion 1", value: 17 },
-    { title: "Medicion 2", value: 18.3 },
-    { title: "Medicion 3", value: 18.2 },
+    { title: "Medición 1", value: 17 },
+    { title: "Medición 2", value: 18.3 },
+    { title: "Medición 3", value: 18.2 },
   ]);
   const [pastDataPliegues, setPastDataPliegues] = useState([
     {
       "Pliegue Cresta ilíaca": 6.8,
       "Pliegue Supraespinal": 3.4,
       "Pliegue Abdominal": 8,
-      when: "Medicion 3",
+      when: "Medición 3",
     },
   ]);
   const [pastDataMas, setPastDataMas] = useState([
-    { title: "Medicion 1", value: calcMasMus(166, 49.1, 26.1, 32.1) },
-    { title: "Medicion 2", value: calcMasMus(166, 50.3, 27.4, 33.5) },
-    { title: "Medicion 3", value: calcMasMus(166, 52.4, 27.5, 33.8) },
+    { title: "Medición 1", value: calcMasMus(166, 49.1, 26.1, 32.1) },
+    { title: "Medición 2", value: calcMasMus(166, 50.3, 27.4, 33.5) },
+    { title: "Medición 3", value: calcMasMus(166, 52.4, 27.5, 33.8) },
   ]);
   const [pastDataMasLast, setPastDataMasLast] = useState([
     {
       value: calcMasMus(166, 52.4, 27.5, 33.8),
-      when: "Medicion 3",
+      when: "Medición 3",
     },
   ]);
 
